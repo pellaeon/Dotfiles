@@ -1,9 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/www/survey/styles'
-let g:netrw_dirhist_2='/home/www/newsite/trunk/wp-content/themes/dewdrop/functions'
-let g:netrw_dirhist_3='/usr/obj/usr/src/sys/CNMC'
-let g:netrw_dirhist_4='/home/cnmc16/pellaeon/public_html/65th/scripts/yoxview'
-let g:netrw_dirhist_5='/home/cnmc16/pellaeon/public_html/65th-orig'
-let g:netrw_dirhist_6='/home/cnmc16/pellaeon/public_html/65th/styles'
-let g:netrw_dirhist_7='/home/cnmc16/pellaeon/public_html/65th-orig/css'
+let g:netrw_dirhist_cnt =0
