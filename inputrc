@@ -1,0 +1,6 @@
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+# http://superuser.com/questions/212446/binding-backward-kill-word-to-ctrlw
+set bind-tty-special-chars off
+"\C-u": kill-whole-line
+"\C-w": backward-kill-word
