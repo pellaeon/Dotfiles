@@ -7,3 +7,7 @@ ln -s ~/Dotfiles/inputrc ~/.inputrc
 ln -s ~/Dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Dotfiles/cshrc ~/.cshrc
 ln -s ~/Dotfiles/complete ~/.complete
+
+# Irssi
+mkdir ~/.irssi/
+ln -s ~/Dotfiles/irssi/config ~/.irssi/config
