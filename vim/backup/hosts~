@@ -1,0 +1,30 @@
+127.0.0.1	localhost
+127.0.1.1	Christophsis.dynamic.kbronet.com.tw	Christophsis
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+140.131.149.1	www
+140.131.149.2	www2
+#140.131.149.2	www.hs.ntnu.edu.tw
+140.131.149.3	mail
+140.131.149.9	ns
+140.131.149.16	cnmc16
+140.131.149.19	cnmc19
+140.131.149.20	cnmc20
+140.131.149.22	cnmc22
+140.131.149.27	cnmc27
+140.131.149.24	cnmc24
+140.131.149.30	cnmc30
+140.131.149.35	bf
+140.131.149.59	site
+
+211.73.64.9	free.nchc.org.tw
+211.72.203.207	thesearch
+
+#127.0.0.1	www.pandora.com
+#127.0.0.1	pandora.com
