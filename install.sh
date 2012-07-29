@@ -9,5 +9,9 @@ ln -s ~/Dotfiles/cshrc ~/.cshrc
 ln -s ~/Dotfiles/complete ~/.complete
 
 # Irssi
-mkdir ~/.irssi/
+mkdir -p ~/.irssi/
 ln -s ~/Dotfiles/irssi/config ~/.irssi/config
+
+# SSH
+mkdir -p ~/.ssh/
+ln -s ~/Dotfiles/ssh/config ~/.ssh/config

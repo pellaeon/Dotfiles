@@ -1,0 +1,21 @@
+# SSH
+#Host *
+#	HostName *
+#	User pellaeon
+#	IdentityFile /home/pellaeon/.ssh/id_rsa
+# github
+Host github.com
+	HostName github.com
+	User git
+	IdentityFile /home/pellaeon/.ssh/id_rsa_github
+# Bitbucket
+Host bitbucket.org
+	HostName bitbucket.org
+	User git
+	IdentityFile /home/pellaeon/.ssh/id_rsa_bitbucket
+
+# The Search
+Host thesearch
+	Hostname thesearch
+	User acts
+	IdentityFile /home/pellaeon/.ssh/id_rsa_thesearch
