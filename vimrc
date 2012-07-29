@@ -92,6 +92,13 @@ nmap <LEADER>fd :se ff=dos<CR>
 nmap <LEADER>fu :se ff=unix<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
+" Pathogen.vim
+" http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+""""""""""""""""""""""""""""""""""""""""""""""""""
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
 " Filetypes
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Enable filetype plugin
