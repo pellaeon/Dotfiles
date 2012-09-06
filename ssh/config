@@ -19,3 +19,9 @@ Host thesearch
 	Hostname thesearch
 	User acts
 	IdentityFile /home/pellaeon/.ssh/id_rsa_thesearch
+
+# Launchpad
+Host launchpad.net
+	HostName launchpad.net
+	User pellaeon
+	IdentityFile /home/pellaeon/.ssh/id_rsa-launchpad
