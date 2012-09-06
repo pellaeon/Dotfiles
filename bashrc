@@ -99,15 +99,13 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 alias shole='ssh pellaeon@security-hole.info'
-alias wendy='ssh pellaeon@cnmc22.hs.ntnu.edu.tw'
 alias barcel='ssh pellaeon@cnmc30.hs.ntnu.edu.tw'
 alias swww='ssh pellaeon@www.hs.ntnu.edu.tw'
-alias sbak='ssh pellaeon@backup.hs.ntnu.edu.tw'
 alias scnmc='ssh pellaeon@cnmc.tw'
-alias steve='ssh root@192.168.1.1'
-alias sfs24='sshfs cnmc24:/home/pellaeon/ sshfs/'
-alias yavin='ssh -i yavin.pem ec2-user@ec2-184-72-5-191.us-west-1.compute.amazonaws.com'
-alias ossus='ssh -i ossus.pem ossus.dyndns.info'
+alias steve='ssh drev@192.168.1.1'
+alias s='screen'
+alias r='screen -r'
+alias d='screen -d'
 
 #Android SDK
 export PATH=${PATH}:/home/pellaeon/Public/android-sdk-linux_86/tools:/home/pellaeon/Public/android-sdk-linux_86/platform-tools
