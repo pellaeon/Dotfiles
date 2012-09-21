@@ -10,3 +10,6 @@
 [submodule "vim/bundle/vim-css3-syntax"]
 	path = vim/bundle/vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax
+[submodule "vim/bundle/vim-css-color"]
+	path = vim/bundle/vim-css-color
+	url = https://github.com/ap/vim-css-color.git
