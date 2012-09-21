@@ -25,3 +25,40 @@ Host launchpad.net
 	HostName launchpad.net
 	User pellaeon
 	IdentityFile /home/pellaeon/.ssh/id_rsa-launchpad
+
+Host bsd1
+	HostName bsd1.cs.nctu.edu.tw
+	User yute
+Host bsd2
+	HostName bsd2.cs.nctu.edu.tw
+	User yute
+Host bsd3
+	HostName bsd3.cs.nctu.edu.tw
+	User yute
+Host bsd4
+	HostName bsd4.cs.nctu.edu.tw
+	User yute
+Host bsd5
+	HostName bsd5.cs.nctu.edu.tw
+	User yute
+Host bsd6
+	HostName bsd6.cs.nctu.edu.tw
+	User yute
+Host linux1
+	HostName linux1.cs.nctu.edu.tw
+	User yute
+Host linux2
+	HostName linux2.cs.nctu.edu.tw
+	User yute
+Host linux3
+	HostName linux3.cs.nctu.edu.tw
+	User yute
+Host linux4
+	HostName linux4.cs.nctu.edu.tw
+	User yute
+Host linux5
+	HostName linux5.cs.nctu.edu.tw
+	User yute
+Host linux6
+	HostName linux6.cs.nctu.edu.tw
+	User yute
