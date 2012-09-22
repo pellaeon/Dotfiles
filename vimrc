@@ -146,6 +146,11 @@ set laststatus=2
 set rulerformat=%15(%c%V\ %p%%%)
 "set cmdheight=2
 
+" The following command scrolls the text so that (when possible) there are
+" always at least five lines visible above the cursor, and five lines visible
+" below the cursor: 
+set scrolloff=5
+
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Search
 """"""""""""""""""""""""""""""""""""""""""""""""""
