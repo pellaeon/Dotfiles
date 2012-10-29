@@ -56,5 +56,3 @@ if ($?prompt) then
 		bindkey -k down history-search-forward
 	endif
 endif
-
-source ~/.complete
