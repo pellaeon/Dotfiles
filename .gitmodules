@@ -16,3 +16,6 @@
 [submodule "vim/bundle/zencoding-vim"]
 	path = vim/bundle/zencoding-vim
 	url = https://github.com/mattn/zencoding-vim.git
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = https://github.com/hallison/vim-markdown
