@@ -7,6 +7,7 @@
 	ca = commit -a
 	br = branch
 	co = checkout
+	tree = log --graph --all  --decorate=short --oneline
 # http://draconianoverlord.com/2010/03/04/git-config.html
 [color]
   # turn on color
