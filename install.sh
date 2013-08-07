@@ -5,11 +5,9 @@ for file in vimrc vim cshrc screenrc inputrc gitconfig
 do
 	if [ ! -e ~/.${file} ]; then
 		ln -s `pwd -P`/${file} ~/.${file}
-	elif [ -L ~/.${file} ]; then
+	else
 		rm ~/.${file}
 		ln -s `pwd -P`/${file} ~/.${file}
-	else
-		echo "~/.${file} already exists!"
 	fi
 done
 
@@ -20,7 +18,12 @@ do
 		mkdir ~/.${dir}
 		ln -s `pwd -P`/${dir}/config ~/.${dir}/config
 	else
-		echo "~/.${dir} already exists!"
+		rm -r ~/.${dir}
+		mkdir ~/.${dir}
+		ln -s `pwd -P`/${dir}/config ~/.${dir}/config
 	fi
 done
-		
+
+if [ $SHELL = "/bin/tcsh" ]; then
+	source .cshrc
+fi
