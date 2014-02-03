@@ -35,3 +35,5 @@
 [color "sh"]
   branch = yellow
 
+[push]
+	default = simple
