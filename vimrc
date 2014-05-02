@@ -243,6 +243,9 @@ set smartindent
 set cindent
 set showmode
 
+set tabstop=4
+set shiftwidth=4
+
 " Then, when in insert mode, ready to paste, if you press <F2>, Vim will
 " switch to paste mode, disabling all kinds of smartness and just pasting a
 " whole buffer of text. Then, you can disable paste mode again with another
