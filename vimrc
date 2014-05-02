@@ -104,6 +104,9 @@ autocmd! BufRead,BufNewFile *.conf set filetype=config
 autocmd BufRead *.vala,*.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
 au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
 
+" Python
+autocmd BufRead *.py set expandtab tabstop=4 shiftwidth=4
+
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Interface
 """"""""""""""""""""""""""""""""""""""""""""""""""
