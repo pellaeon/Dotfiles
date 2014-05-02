@@ -1,4 +1,5 @@
 #!/bin/bash
+mv ~/.bashrc ~/.bashrc.orig
 ln -s ~/Dotfiles/vimrc ~/.vimrc
 ln -s ~/Dotfiles/vim ~/.vim
 ln -s ~/Dotfiles/bashrc ~/.bashrc

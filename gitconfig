@@ -35,3 +35,7 @@
 [color "sh"]
   branch = yellow
 
+[push]
+	default = simple
+[help]
+	autocorrect = 1

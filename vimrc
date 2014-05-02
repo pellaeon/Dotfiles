@@ -292,7 +292,7 @@ map <F5> :set spell!<CR><BAR>:echo "Spell check: " . strpart("OffOn", 3 * &spell
     """"""""""""""""""""""""""""""""""""""""
     " Taglist
     """"""""""""""""""""""""""""""""""""""""
-    let Tlist_Ctags_Cmd = '/usr/local/bin/exctags'
+    "let Tlist_Ctags_Cmd = '/usr/local/bin/exctags'
     let Tlist_Auto_Update = 1
     let Tlist_Sort_Type = "name"
     let Tlist_WinWidth = 30
