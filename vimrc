@@ -105,7 +105,7 @@ autocmd BufRead *.vala,*.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
 au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
 
 " Python
-autocmd BufRead *.py set expandtab tabstop=4 shiftwidth=4
+autocmd FileType python setlocal foldmethod=indent smartindent shiftwidth=4 ts=4 et cinwords=if,elif,else,for,while,try,except,finally,def,class
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Interface
