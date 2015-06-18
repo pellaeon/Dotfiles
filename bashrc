@@ -125,3 +125,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export GREP_COLORS='ms=01;31:mc=01;31:sl=:cx=:fn=33:ln=32:bn=32:se=36'
 
 source ~/Dotfiles/git-completion.bash
+
+export GOPATH="$HOME/gopath"
+export PATH="$GOPATH/bin:$PATH"
