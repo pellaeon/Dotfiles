@@ -16,6 +16,8 @@ alias csupup	csup -L 2 /root/supfiles/ports-supfile
 alias du	du -h
 alias pm	portmaster -Bd --no-confirm
 alias mysql	mysql -u root -p --prompt="\(\\u\@\\h\)\ \[\\d\]\>"
+alias grep	grep --color=always
+alias less	less -R
 
 set	autolist
 
