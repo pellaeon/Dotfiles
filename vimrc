@@ -239,8 +239,6 @@ set lbr
 set wrap
 
 set autoindent
-set smartindent
-set cindent
 set showmode
 
 set tabstop=4
