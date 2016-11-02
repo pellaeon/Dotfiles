@@ -107,6 +107,8 @@ au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
 " Python
 autocmd FileType python setlocal foldmethod=indent smartindent shiftwidth=4 ts=4 et cinwords=if,elif,else,for,while,try,except,finally,def,class
 
+autocmd FileType vue setlocal foldmethod=indent smartindent shiftwidth=2 ts=4 et
+
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Interface
 """"""""""""""""""""""""""""""""""""""""""""""""""
