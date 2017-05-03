@@ -8,6 +8,7 @@
 	br = branch
 	co = checkout
 	tree = log --graph --all  --decorate=short --oneline
+	lg = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 # http://draconianoverlord.com/2010/03/04/git-config.html
 [color]
   # turn on color
