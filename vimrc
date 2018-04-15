@@ -183,6 +183,8 @@ nmap <C-T>c :tabnew<CR>
 nmap <C-T>k :tabclose<CR>
 nmap <C-H> :tabprev<CR>
 nmap <C-L> :tabnext<CR>
+nmap [1;3C :tabnext<CR>
+nmap [1;9C :tabnext<CR>
 
 set switchbuf=usetab
 
