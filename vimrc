@@ -182,8 +182,14 @@ set wrapscan
 nmap <C-T>c :tabnew<CR>
 nmap <C-T>k :tabclose<CR>
 nmap <C-H> :tabprev<CR>
+" Alt+left arrow inside tmux
+nmap [1;3D :tabprev<CR>
+" Alt+left arrow outside tmux
+nmap [1;9D :tabprev<CR>
 nmap <C-L> :tabnext<CR>
+" Alt+right arrow inside tmux
 nmap [1;3C :tabnext<CR>
+" Alt+right arrow outside tmux
 nmap [1;9C :tabnext<CR>
 
 set switchbuf=usetab
