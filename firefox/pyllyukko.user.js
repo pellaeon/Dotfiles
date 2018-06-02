@@ -315,7 +315,7 @@ user_pref("general.buildID.override",				"20100101");
 // PREF: Prevent font fingerprinting
 // https://browserleaks.com/fonts
 // https://github.com/pyllyukko/user.js/issues/120
-user_pref("browser.display.use_document_fonts",			0);
+//user_pref("browser.display.use_document_fonts",			0);
 
 // PREF: Enable only whitelisted URL protocol handlers
 // http://kb.mozillazine.org/Network.protocol-handler.external-default
@@ -500,7 +500,8 @@ user_pref("privacy.userContext.enabled",			true);
 // PREF: Enable hardening against various fingerprinting vectors (Tor Uplift project)
 // https://wiki.mozilla.org/Security/Tor_Uplift/Tracking
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1333933
-user_pref("privacy.resistFingerprinting",			true);
+// Note: will forget window size upon close https://www.reddit.com/r/firefox/comments/8e0zzp/how_to_change_default_window_positionsize_when/
+//user_pref("privacy.resistFingerprinting",			true);
 
 // PREF: Disable the built-in PDF viewer
 // https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2743
