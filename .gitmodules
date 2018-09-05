@@ -28,3 +28,6 @@
 [submodule "tmux/tmux-powerline"]
 	path = tmux/tmux-powerline
 	url = https://github.com/erikw/tmux-powerline.git
+[submodule "tmux/tmux-resurrect"]
+	path = tmux/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect
