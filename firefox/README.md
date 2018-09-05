@@ -1,5 +1,9 @@
 # Creating new Firefox profile with my settings
 
+```
+cat pyllyukko.user.js user.js > profile_dir/user.js
+```
+
 # Notes
 ## Search Engines
 
