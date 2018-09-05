@@ -1,6 +1,7 @@
 # SSH
 Host *
-    UseKeychain yes #required on MacOS to use KeyChain
+#required on MacOS to use KeyChain
+    UseKeychain yes
 #Host *
 #	HostName *
 #	User pellaeon
