@@ -8,6 +8,8 @@ ln -s ~/Dotfiles/inputrc ~/.inputrc
 ln -s ~/Dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Dotfiles/cshrc ~/.cshrc
 ln -s ~/Dotfiles/complete ~/.complete
+ln -s ~/Dotfiles/tmux ~/.tmux
+ln -s ~/Dotfiles/tmux.conf ~/.tmux.conf
 
 # Irssi
 mkdir -p ~/.irssi/
