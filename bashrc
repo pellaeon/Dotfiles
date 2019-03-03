@@ -108,6 +108,7 @@ alias r='screen -r'
 alias d='screen -d'
 alias grep='grep --color=always'
 alias less='less -R'
+alias aws='aws --no-sign-request'
 
 #Android SDK
 export PATH=${PATH}:/home/pellaeon/Public/android-sdk-linux_86/tools:/home/pellaeon/Public/android-sdk-linux_86/platform-tools
