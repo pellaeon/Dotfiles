@@ -1,30 +1,6 @@
 [submodule "vim/bundle/fugitive"]
 	path = vim/bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
-[submodule "vim/bundle/vim-less"]
-	path = vim/bundle/vim-less
-	url = https://github.com/groenewege/vim-less.git
-#[submodule "vim/bundle/vim-css-color"]
-#	path = vim/bundle/vim-css-color
-#	url = https://github.com/skammer/vim-css-color.git
-[submodule "vim/bundle/vim-css3-syntax"]
-	path = vim/bundle/vim-css3-syntax
-	url = https://github.com/hail2u/vim-css3-syntax
-[submodule "vim/bundle/vim-css-color"]
-	path = vim/bundle/vim-css-color
-	url = https://github.com/ap/vim-css-color.git
-[submodule "vim/bundle/zencoding-vim"]
-	path = vim/bundle/zencoding-vim
-	url = https://github.com/mattn/zencoding-vim.git
-[submodule "vim/bundle/jedi-vim"]
-	path = vim/bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim
-[submodule "vim/bundle/vim-go"]
-	path = vim/bundle/vim-go
-	url = https://github.com/fatih/vim-go
-[submodule "vim/bundle/vim-vue"]
-	path = vim/bundle/vim-vue
-	url = https://github.com/posva/vim-vue
 [submodule "tmux/tmux-powerline"]
 	path = tmux/tmux-powerline
 	url = https://github.com/erikw/tmux-powerline.git
