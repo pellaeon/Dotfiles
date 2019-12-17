@@ -110,15 +110,6 @@ alias grep='grep --color=always'
 alias less='less -R'
 alias aws='aws --no-sign-request'
 
-#Android SDK
-export PATH=${PATH}:/home/pellaeon/Public/android-sdk-linux_86/tools:/home/pellaeon/Public/android-sdk-linux_86/platform-tools
-
-# Packaging
-export DEBFULLNAME="Yu-De Lin (Pellaeon)"
-export DEBEMAIL="nfsmwlin@gmail.com"
-
-export BUILDRESULT=/home/pellaeon/pbuilder/lucid-amd64_results/
-
 export EDITOR="vim"
 
 ### Added by the Heroku Toolbelt
