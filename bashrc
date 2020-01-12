@@ -122,3 +122,4 @@ source ~/Dotfiles/git-completion.bash
 
 export GOPATH="$HOME/gopath"
 export PATH="$GOPATH/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
