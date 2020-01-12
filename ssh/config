@@ -1,16 +1,11 @@
 # SSH
 Host *
 #required on MacOS to use KeyChain
-    UseKeychain yes
+#    UseKeychain yes
 #Host *
 #	HostName *
 #	User pellaeon
 #	IdentityFile /home/pellaeon/.ssh/id_rsa
-# github
-Host github.com
-	HostName github.com
-	User git
-	IdentityFile /home/pellaeon/.ssh/id_rsa_github
 # Bitbucket
 Host bitbucket.org
 	HostName bitbucket.org
