@@ -125,3 +125,10 @@ source ~/Dotfiles/git-completion.bash
 export GOPATH="$HOME/gopath"
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+
+if [[ $(which pbcopy) ]]; then
+	alias pbcopy='xsel --clipboard --input'
+fi
+if [[ $(which pbpaste) ]]; then
+	alias pbpaste='xsel --clipboard --output'
+fi
