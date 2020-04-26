@@ -111,6 +111,7 @@ alias d='screen -d'
 alias grep='grep --color=always'
 alias less='less -R'
 alias aws='aws --no-sign-request'
+alias git='LANG=C git'
 
 export EDITOR="vim"
 
@@ -134,3 +135,17 @@ fi
 if [[ $(which pbpaste) ]]; then
 	alias pbpaste='xsel --clipboard --output'
 fi
+
+# For macOS
+export PATH="$HOME/.gems/bin:$PATH"
+export PATH="/opt/local/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
+export PATH="$HOME/Library/Python/3.7/bin:$PATH"
+export PATH="/opt/local/share/java/android-sdk-macosx/platform-tools:$PATH"
+export PATH="$HOME/android/platform-tools:$PATH"
+
+alias hist="/Users/pellaeon/project/historian/hist"
+alias Slack='nice -n 20 /Applications/Slack.app/Contents/MacOS/Slack &'
+alias FirefoxQuantum='/Applications/FirefoxQuantum.app/Contents/MacOS/firefox -ProfileManager --no-remote'
+alias hi="history -a && hist import"
+alias rn='pgrep "(Slack|TweetDeck|Signal|plugin-container)" | xargs sudo renice 20 -p'
+alias airport='sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport'
