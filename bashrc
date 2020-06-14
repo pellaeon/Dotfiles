@@ -139,10 +139,10 @@ export PATH="$HOME/.local/bin:$PATH"
 
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
-if [[ $(which pbcopy) ]]; then
+if [ -z $(which pbcopy) ]; then
 	alias pbcopy='xsel --clipboard --input'
 fi
-if [[ $(which pbpaste) ]]; then
+if [ -z $(which pbpaste) ]; then
 	alias pbpaste='xsel --clipboard --output'
 fi
 
