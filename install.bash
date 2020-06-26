@@ -1,5 +1,5 @@
 #!/bin/bash
-mv ~/.bashrc ~/.bashrc.orig
+[ ! -h "~/.bashrc" ] && mv ~/.bashrc ~/.bashrc.orig
 ln -s ~/Dotfiles/vimrc ~/.vimrc
 ln -s ~/Dotfiles/vim ~/.vim
 ln -s ~/Dotfiles/bashrc ~/.bashrc
@@ -20,7 +20,7 @@ mkdir -p ~/.ssh/
 ln -s ~/Dotfiles/ssh/config ~/.ssh/config
 
 # Create English symlinks for easy navigation
-if [ $LANGUAGE == 'zh_TW:zh' ]; then
+if [ "$LANGUAGE" == 'zh_TW:zh' ]; then
 	if [ -d '~/公共' ]; then
 		ln -s ~/公共 ~/Public
 	fi
