@@ -1,0 +1,7 @@
+# IMAP: offlineimap
+set folder = "~/Test"
+source ~/.mutt/mailboxes
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set postponed = "+Drafts"
+set sort_aux=reverse-last-date-received
