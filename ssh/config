@@ -1,5 +1,6 @@
 # SSH
 Host *
+	AddKeysToAgent yes
 #required on MacOS to use KeyChain
 #    UseKeychain yes
 #Host *
