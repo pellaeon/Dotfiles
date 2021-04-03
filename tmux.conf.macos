@@ -1,0 +1,1 @@
+set -g status-right "#[fg=red,bold]#(uptime | cut -d ' ' -f 11-) #[fg=blue,bold][%Y/%m/%d(%a)%H:%M]#[default]"
