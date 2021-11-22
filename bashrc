@@ -130,6 +130,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Different grep color
 export GREP_COLORS='ms=01;31:mc=01;31:sl=:cx=:fn=33:ln=32:bn=32:se=36'
+export LESSCHARSET=utf-8
 
 source ~/Dotfiles/git-completion.bash
 
@@ -159,3 +160,5 @@ alias FirefoxQuantum='/Applications/FirefoxQuantum.app/Contents/MacOS/firefox -P
 alias hi="history -a && hist import"
 alias rn='pgrep "(Slack|TweetDeck|Signal|plugin-container)" | xargs sudo renice 20 -p'
 alias airport='sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport'
+
+alias archivebox='docker-compose run archivebox'
