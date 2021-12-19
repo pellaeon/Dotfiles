@@ -242,11 +242,11 @@ user_pref("clipboard.autocopy",					false);
 // PREF: Prevent leaking application locale/date format using JavaScript
 // https://bugzilla.mozilla.org/show_bug.cgi?id=867501
 // https://hg.mozilla.org/mozilla-central/rev/52d635f2b33d
-user_pref("javascript.use_us_english_locale",			true);
+//user_pref("javascript.use_us_english_locale",			true);
 
 // PREF: Do not submit invalid URIs entered in the address bar to the default search engine
 // http://kb.mozillazine.org/Keyword.enabled
-user_pref("keyword.enabled",					false);
+//user_pref("keyword.enabled",					false);
 
 // PREF: Don't trim HTTP off of URLs in the address bar.
 // https://bugzilla.mozilla.org/show_bug.cgi?id=665580
@@ -537,7 +537,7 @@ user_pref("privacy.userContext.enabled",			true);
 // https://wiki.mozilla.org/Security/Fingerprinting
 // NOTICE: RFP breaks some keyboard shortcuts used in certain websites (see #443)
 // NOTICE: RFP changes your time zone
-user_pref("privacy.resistFingerprinting",			true);
+//user_pref("privacy.resistFingerprinting",			true);
 
 // PREF: disable mozAddonManager Web API [FF57+]
 // https://bugzilla.mozilla.org/buglist.cgi?bug_id=1384330
@@ -627,8 +627,8 @@ user_pref("browser.safebrowsing.downloads.remote.enabled",	false);
 // PREF: Disable Pocket
 // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
 // https://github.com/pyllyukko/user.js/issues/143
-user_pref("browser.pocket.enabled",				false);
-user_pref("extensions.pocket.enabled",				false);
+//user_pref("browser.pocket.enabled",				false);
+//user_pref("extensions.pocket.enabled",				false);
 
 // PREF: Disable "Recommended by Pocket" in Firefox Quantum
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories",	false);
@@ -861,7 +861,7 @@ user_pref("privacy.cpd.sessions",				true);
 // PREF: Require manual intervention to autofill known username/passwords sign-in forms
 // http://kb.mozillazine.org/Signon.autofillForms
 // https://www.torproject.org/projects/torbrowser/design/#identifier-linkability
-user_pref("signon.autofillForms",				false);
+//user_pref("signon.autofillForms",				false);
 
 // PREF: Disable formless login capture
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1166947
@@ -1048,27 +1048,27 @@ user_pref("network.stricttransportsecurity.preloadlist",	true);
 // NOTICE: OCSP adds latency (performance)
 // NOTICE: Short-lived certificates are not checked for revocation (security.pki.cert_short_lifetime_in_days, default:10)
 // CIS Version 1.2.0 October 21st, 2011 2.2.4
-user_pref("security.OCSP.enabled",				1);
+//user_pref("security.OCSP.enabled",				1);
 
 // PREF: Enable OCSP Stapling support
 // https://en.wikipedia.org/wiki/OCSP_stapling
 // https://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox/
 // https://www.digitalocean.com/community/tutorials/how-to-configure-ocsp-stapling-on-apache-and-nginx
-user_pref("security.ssl.enable_ocsp_stapling",			true);
+//user_pref("security.ssl.enable_ocsp_stapling",			true);
 
 // PREF: Enable OCSP Must-Staple support (Firefox >= 45)
 // https://blog.mozilla.org/security/2015/11/23/improving-revocation-ocsp-must-staple-and-short-lived-certificates/
 // https://www.entrust.com/ocsp-must-staple/
 // https://github.com/schomery/privacy-settings/issues/40
 // NOTICE: Firefox falls back on plain OCSP when must-staple is not configured on the host certificate
-user_pref("security.ssl.enable_ocsp_must_staple",		true);
+//user_pref("security.ssl.enable_ocsp_must_staple",		true);
 
 // PREF: Require a valid OCSP response for OCSP enabled certificates
 // https://groups.google.com/forum/#!topic/mozilla.dev.security/n1G-N2-HTVA
 // Disabling this will make OCSP bypassable by MitM attacks suppressing OCSP responses
 // NOTICE: `security.OCSP.require` will make the connection fail when the OCSP responder is unavailable
 // NOTICE: `security.OCSP.require` is known to break browsing on some [captive portals](https://en.wikipedia.org/wiki/Captive_portal)
-user_pref("security.OCSP.require",				true);
+//user_pref("security.OCSP.require",				true);
 
 // PREF: Disable TLS Session Tickets
 // https://www.blackhat.com/us-13/briefings.html#NextGen
