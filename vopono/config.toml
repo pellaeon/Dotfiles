@@ -1,0 +1,2 @@
+# This config installs at ~/.config/vopono/
+postup = "/home/pellaeon/Dotfiles/vopono/postup.sh"
