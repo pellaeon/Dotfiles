@@ -1,2 +1,5 @@
 # This config installs at ~/.config/vopono/
-postup = "/home/pellaeon/Dotfiles/vopono/postup.sh"
+
+# postup script to give access to local IPs are not needed anymore, use --open-hosts option
+# ref: https://github.com/jamesmcm/vopono/pull/144/files
+#postup = "/home/pellaeon/Dotfiles/vopono/postup.sh"
