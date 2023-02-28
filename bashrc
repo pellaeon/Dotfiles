@@ -125,16 +125,12 @@ alias git='LANG=C git'
 
 export EDITOR="vim"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
 # Different grep color
 export GREP_COLORS='ms=01;31:mc=01;31:sl=:cx=:fn=33:ln=32:bn=32:se=36'
 export LESSCHARSET=utf-8
 
 source ~/Dotfiles/git-completion.bash
 
-export GOPATH="$HOME/gopath"
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -148,17 +144,18 @@ if [[ -z $(which pbpaste) ]]; then
 fi
 
 # For macOS
-export PATH="$HOME/.gems/bin:$PATH"
-export PATH="/opt/local/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
-export PATH="$HOME/Library/Python/3.7/bin:$PATH"
-export PATH="/opt/local/share/java/android-sdk-macosx/platform-tools:$PATH"
-export PATH="$HOME/android/platform-tools:$PATH"
-
-alias hist="/Users/pellaeon/project/historian/hist"
-alias Slack='nice -n 20 /Applications/Slack.app/Contents/MacOS/Slack &'
-alias FirefoxQuantum='/Applications/FirefoxQuantum.app/Contents/MacOS/firefox -ProfileManager --no-remote'
-alias hi="history -a && hist import"
-alias rn='pgrep "(Slack|TweetDeck|Signal|plugin-container)" | xargs sudo renice 20 -p'
-alias airport='sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport'
+if [[ $(uname) = "Darwin" ]]; then
+	export PATH="$HOME/.gems/bin:$PATH"
+	export PATH="/opt/local/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
+	export PATH="$HOME/Library/Python/3.7/bin:$PATH"
+	export PATH="/opt/local/share/java/android-sdk-macosx/platform-tools:$PATH"
+	export PATH="$HOME/android/platform-tools:$PATH"
+	alias Slack='nice -n 20 /Applications/Slack.app/Contents/MacOS/Slack &'
+	alias FirefoxQuantum='/Applications/FirefoxQuantum.app/Contents/MacOS/firefox -ProfileManager --no-remote'
+	alias rn='pgrep "(Slack|TweetDeck|Signal|plugin-container)" | xargs sudo renice 20 -p'
+	alias airport='sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport'
+	alias hist="/Users/pellaeon/project/historian/hist"
+	alias hi="history -a && hist import"
+fi
 
 alias archivebox='docker-compose run archivebox'
