@@ -159,3 +159,5 @@ if [[ $(uname) = "Darwin" ]]; then
 fi
 
 alias archivebox='docker-compose run archivebox'
+
+export GTK_USE_PORTAL=1
