@@ -19,6 +19,10 @@ ln -s ~/Dotfiles/irssi/config ~/.irssi/config
 mkdir -p ~/.ssh/
 ln -s ~/Dotfiles/ssh/config ~/.ssh/config
 
+# fcitx5-rime
+mkdir -p ~/.local/share/fcitx5/rime
+ln -s ~/Dotfiles/rime/default.custom.yaml ~/.local/share/fcitx5/rime/default.custom.yaml
+
 # Create English symlinks for easy navigation
 if [ "$LANGUAGE" == 'zh_TW:zh' ]; then
 	if [ -d '~/公共' ]; then
